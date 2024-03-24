@@ -7,6 +7,7 @@ import Cart from "./components/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import { NotificationProvider } from "./context/Notification";
 import Checkout from "./components/Checkout/Checkout";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
               <Route path="/item/:itemId" element={<ItemDetailContainer />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
-              <Route path="*" element={<h1>404 NOT FOUND</h1>} />
+              <Route path="*" element={<ErrorPage />} />
             </Routes>
           </CartProvider>
         </NotificationProvider>
