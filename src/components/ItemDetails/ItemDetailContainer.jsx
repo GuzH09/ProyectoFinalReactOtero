@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "../SpinnerLoader/SpinnerLoader.css";
-import ItemDetail from "../ItemDetail/ItemDetail";
+import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { db } from "../../services/firebase";
 import { doc, getDoc } from "firebase/firestore";

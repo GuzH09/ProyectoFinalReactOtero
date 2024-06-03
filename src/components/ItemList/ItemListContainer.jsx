@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import ItemList from "../ItemList/ItemList";
+import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
-import BrandHeader from "../BrandHeader/BrandHeader";
+import BrandHeader from "./BrandHeader";
 import { useNotification } from "../../context/Notification";
 import { db } from "../../services/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";

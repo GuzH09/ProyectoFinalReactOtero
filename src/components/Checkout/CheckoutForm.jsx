@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNotification } from "../../context/Notification";
+import { useNotification } from "../../context/Notification.jsx";
 import { validateInput } from "./validation.js";
 
 const CheckoutForm = ({ onConfirm }) => {

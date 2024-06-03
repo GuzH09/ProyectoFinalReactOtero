@@ -10,7 +10,7 @@ import {
   addDoc,
 } from "firebase/firestore";
 import { db } from "../../services/firebase";
-import CheckoutForm from "../CheckoutForm/CheckoutForm";
+import CheckoutForm from "./CheckoutForm";
 import "../SpinnerLoader/SpinnerLoader.css";
 
 const Checkout = () => {

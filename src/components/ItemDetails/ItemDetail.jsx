@@ -1,4 +1,4 @@
-import ItemCount from "../ItemCount/ItemCount";
+import ItemCount from "./ItemCount";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
